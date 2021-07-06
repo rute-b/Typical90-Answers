@@ -17,7 +17,7 @@ def make_divisors(n):
     return lo + hi[::-1]
 K = int(input())
 S = make_divisors(K)
-print(S)
+
 #print(S)
 ans = 0
 #ans  a = 1 の場合のb,cの組の個数
